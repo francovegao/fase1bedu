@@ -24,10 +24,13 @@ button{
     margin-left: 20px;
     margin-right: 20px;*/ 
     font-size: 0;
+    height: 45px;
 }
 
 li{
     display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .header > * {
@@ -36,6 +39,7 @@ li{
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
+    font-family: sans-serif;
 }
 
 .logo{
@@ -43,7 +47,7 @@ li{
 }
 
 .logo > img{
-    width:15%;
+    width: 15%;
 }
 
 .navbar{
@@ -51,6 +55,7 @@ li{
     text-align: center;
     color: #025157;
     font-weight: 500;
+    font-family: sans-serif;
 }
 
 .actions{
@@ -58,6 +63,25 @@ li{
     text-align: right;
     font-size: 14px;
     font-weight: 600;
+   
+}
+
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.actions > a{
+    color: #67b54b;
+    
+}
+
+.actions > button{
+    background-color: #67b54b;
+    color: white;
+    padding: 12px 14px 12px 14px;
+    border-radius: 5px;
+    border: 0;
 }
 
 .main{
