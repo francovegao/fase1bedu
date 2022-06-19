@@ -29,6 +29,7 @@ button{
 
 .fixed-header{
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
@@ -105,7 +106,7 @@ li{
 .publish h3{
     color:#025157;
     font-family: 'Pangolin', cursive;
-    font-size 40px;
+    font-size: 40px;
     line-height: 48px;
 }
 
@@ -142,4 +143,89 @@ li{
 .explanatory-video img{
     width: 120px;
     margin-top: 10px;
+}
+
+.logro{
+    background-color: #a1d683;
+    width: 100%;
+}
+
+.logros{
+    background-color: #a1d683;
+    display: flex;
+    margin: 100px auto;
+    align-items: center;
+    padding: 5% 15%;
+    justify-content: space-around;
+}
+
+
+.logros1 h4{
+    color:#025157;
+    font-family: 'Pangolin', cursive;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+.logros1 > p{
+    color: #343434;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.logros1 img{
+    width: 500px;
+    margin-top: 30px;
+}
+
+.logros2 {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.logros2 h5{
+    color:#025157;
+    font-family: 'Pangolin', cursive;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.logros2 > p{
+    color: #343434;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.logros2 > div{
+    color: #646262;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.persona{
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.marca {
+    background-color: #f9da73;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -1270px;
+    right: 200px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.marca > img{
+    width: 70%;
+    margin: auto;
 }
