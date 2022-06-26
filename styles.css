@@ -229,3 +229,79 @@ li{
     width: 70%;
     margin: auto;
 }
+
+.howitworks{
+    background-color: #fffbf7;
+    text-align: center;
+}
+
+.howitworksintro{
+    margin-bottom: 50px;
+}
+
+.howitworksintro h3{
+    color: #025157;
+    font-size: 50px;
+    font-family: 'Pangolin', cursive;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 8px;
+}
+
+.howitworksintro p{
+    color: #343434;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.howitworksintro button{
+    margin-top: 20px;
+}
+
+.howitworkscards{
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+    padding: 5% 10%;
+    margin-top: 5%;
+}
+
+.howitworkscards > article{
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.howitworkscards h4{
+    color: #025157;
+    font-size: 30px;
+    font-family: 'Pangolin', cursive;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.howitworkscards p{
+    color: #343434;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    max-width: 60%;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+.howitworkscards a{
+    color: #67b54b;
+    margin-top: 10px;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+
