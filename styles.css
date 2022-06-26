@@ -59,15 +59,7 @@ li{
     width: 15%;
 } 
 
-/*.navbar-brand{
-    width: 15%;
-}
-.navbar-brand > img{
-    width: 15%;
-}*/
-
 .navbar{
-    width: 70%;
     text-align: center;
     color: #025157;
     font-weight: 500;
@@ -75,7 +67,6 @@ li{
 }
 
 .actions{
-    width: 15%;
     text-align: right;
     font-size: 14px;
     font-weight: 600;
