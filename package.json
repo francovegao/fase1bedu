@@ -1,0 +1,22 @@
+{
+  "name": "fase1bedu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francovegao/fase1bedu.git"
+  },
+  "author": "Oliver Franco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francovegao/fase1bedu/issues"
+  },
+  "homepage": "https://github.com/francovegao/fase1bedu#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
